@@ -1,0 +1,3 @@
+/home/User/p7zip/CPP/7zip/CMAKE/7za/CMakeFiles/rebuild_cache.dir
+/home/User/p7zip/CPP/7zip/CMAKE/7za/CMakeFiles/7za.dir
+/home/User/p7zip/CPP/7zip/CMAKE/7za/CMakeFiles/edit_cache.dir
