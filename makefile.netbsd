@@ -3,7 +3,7 @@
 # makefile for NetBSD (x86, PPC, alpha ...)
 #
 
-OPTFLAGS=-O -s
+OPTFLAGS=-O3 -s
 
 ALLFLAGS=${OPTFLAGS} \
     	-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE \

@@ -3,7 +3,7 @@
 #
 
 # OPTFLAGS=-mfpmath=sse -Ofast -flto -march=native -funroll-loops -s
-OPTFLAGS=-O -s
+OPTFLAGS=-O3 -s
 
 ALLFLAGS=${OPTFLAGS} -pipe -m32 \
     	-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE \

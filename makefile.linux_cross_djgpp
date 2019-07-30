@@ -7,7 +7,7 @@
 #
 
 
-OPTFLAGS=-O -s
+OPTFLAGS=-O3 -s
 
 ALLFLAGS=${OPTFLAGS} \
 	-I${DJGPP_HOME}/include \

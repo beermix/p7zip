@@ -2,7 +2,7 @@
 # makefile.machine for "7z , 7za , 7zr , 7zCon.sfx " :
 # tested with p7zip-4.47_beta on qnx-6.3.0 sp3 x86 target
 
-OPTFLAGS=-O -s
+OPTFLAGS=-O3 -s
 
 ALLFLAGS=${OPTFLAGS} \
        -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE \

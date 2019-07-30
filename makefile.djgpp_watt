@@ -19,7 +19,7 @@ ifeq ($(WATT_ROOT),)
 $(error Please set WATT_ROOT env. var. first!)
 endif
 
-#OPTFLAGS=-O -s
+#OPTFLAGS=-O3 -s
 OPTIMIZE=-Os -mtune=i686 -fomit-frame-pointer -s
 OPTFLAGS=$(OPTIMIZE) -I$(WATT_ROOT)/inc -L$(WATT_ROOT)/lib
 
